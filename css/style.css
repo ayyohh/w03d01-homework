@@ -1,0 +1,92 @@
+/* * {
+  border: 2px solid blue;
+
+} */
+body {
+  background: lightgray;
+
+}
+form {
+  align-content: center;
+}
+#submitBoxbox{
+  background-color: lightgray;
+  color: #f2f2f2;
+}
+#inputBox {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  background: #ccddff;
+  padding-bottom: 150px;
+  font-family: 'Shrikhand';
+}
+.col-sm-2 {
+  margin-top: 25px;
+}
+.gotchiBrd {
+  width: 60%;
+  height: auto;
+  z-index: 3;
+
+}
+.babyGotchi {
+  width: 21%;
+  height: auto;
+  position: absolute;
+  top: 27%;
+  left: 40%;
+  z-index: 1;
+}
+
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@keyframes moving {
+    0%   {left:45%;}
+    10%  {left:40%;}
+    30%  {left:37%;}
+    55%  {left:40%;}
+    65%  {left:45%;}
+    80%  {left:40%;}
+    95%  {left:37%;}
+    100% {left:40%;}
+}
+
+.babyGotchi {
+    width: 100px;
+    height: 100px;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.col-sm-4 {
+  padding: 1%;
+}
+
+h5 {
+  color: gray;
+}
+
+
+button {
+  letter-spacing: 2px;
+  width: 65px;
+  height: 65px;
+  border: none;
+  color: #f2f2f2;
+  background-color: lightgray;
+  opacity: 60%;
+  font-family: arial;
+  font-size: 14px;
+}
+button {border-radius: 10%;}
